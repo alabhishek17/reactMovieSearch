@@ -1,0 +1,30 @@
+.card{
+    /* border: 2px solid green; */
+    padding: 30px;
+    margin: 20px;
+    width: 30%;
+    background-color: black;
+    color: aliceblue;
+    box-shadow: 10px 5px 5px 5px rgb(146, 141, 141);
+}
+/* .main{
+    border: 2px solid green;
+    padding: 10px;
+    margin: 20px;
+    width: 30%;
+    
+} */
+img{
+    width: 100%;
+}
+img:hover{
+    cursor: pointer;
+    /* rotate: 40% ; */
+    overflow: hidden;
+}
+.cardText{
+display: flex;
+flex-direction: column;
+padding: 5px;
+gap: 5px;
+}
